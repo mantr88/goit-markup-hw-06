@@ -366,28 +366,24 @@
             <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
             <span class="form-label">Ім'я</span>
             <label class="form-fild">
-              <input type="text" class="form-input" placeholder=" " />
+              <input type="text" class="form-input" name="name" />
               <svg class="form-icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </label>
             <span class="form-label">Телефон</span>
             <label class="form-fild">
-              <input type="text" class="form-input" placeholder=" " />
-              <span>
-                <svg class="form-icon">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg>
-              </span>
+              <input type="text" class="form-input" name="telefon" />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
             </label>
             <span class="form-label">Пошта</span>
             <label class="form-fild">
-              <input type="text" class="form-input" placeholder=" " />
-              <span>
-                <svg class="form-icon">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg>
-              </span>
+              <input type="text" class="form-input" name="email" />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
             </label>
             <span class="form-label">Коментар</span>
             <label class="form-fild">
@@ -398,8 +394,9 @@
                 placeholder="Введіть текст"
               ></textarea>
             </label>
-            <label class="form-fild check">
-              <input type="checkbox" />
+            <label class="check">
+              <input class="checkbox" type="checkbox" name="check contract" />
+              <span class="checkbox-icon"></span>
               <span
                 >Погоджуюся з розсилкою та приймаю
                 <a href="" class="contract-link">Умови договору</a></span
