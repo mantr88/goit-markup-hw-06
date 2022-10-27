@@ -861,15 +861,15 @@ a {
     width: 16px;
     height: 15px;
     margin-right: 7px;
-    /* background-color: tomato; */
-    background-image: url(../images/icon-check-off\ \(1\).svg);
+    background-image: url(../images/icon-check-off.svg);
     background-size: contain;
     background-repeat: no-repeat;
+
     
 }
 
 .checkbox:checked + .checkbox-icon {
-    background-image: url(../images/icon-check-on\ \(1\).svg);
+    background-image: url(../images/icon-check-on.svg);
 }
 
 .form-button-box {
