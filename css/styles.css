@@ -785,6 +785,7 @@ a {
 }
 
 .form-input {
+    position: relative;
     padding-left: 42px;
     padding-top: 11px;
     padding-bottom: 11px;
@@ -803,7 +804,7 @@ a {
 
 .form-icon {
     position: absolute;
-    top: 11px;
+    top: 50%;
     left: 12px;
     width: 18px;
     height: 18px;
@@ -843,6 +844,7 @@ a {
 .check {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 
 }
@@ -863,18 +865,16 @@ a {
     margin-right: 7px;
     background-image: url(../images/icon-check-off.svg);
     background-size: contain;
-    background-repeat: no-repeat;
-
-    
+    background-repeat: no-repeat; 
 }
 
 .checkbox:checked + .checkbox-icon {
     background-image: url(../images/icon-check-on.svg);
 }
 
-.form-button-box {
-    display: flex;
-    justify-content: center;
+.checkbox-text {
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .contract-link{
@@ -883,12 +883,13 @@ a {
 }
 
 .form-button {
+    display: block;
     padding: 10px 52px;
+    margin: 0 auto;
 
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    text-align: center;
     letter-spacing: 0.06em;
 
     color: var(--white-font-color);
